@@ -29,7 +29,7 @@ if( !function_exists("tweebo")){
 			}
 			
 			$twitter_script = <<<EOT
-<a href="http://twitter.com/share?url=$permalink" class="twitter-share-button" data-url="$permalink" data-text="$text" data-count="none" data-via="an0">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<a href="http://twitter.com/share?url=$permalink" class="twitter-share-button" data-url="$permalink" data-text="$text" data-count="none" data-via="an0">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 EOT;
 			
 			$weibo_script = <<<EOT
